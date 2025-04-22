@@ -1,0 +1,53 @@
+
+
+:root {
+    /* Replace your primary color from your UI Kit */
+    --bs-primary:#FEBBBC;
+}
+
+
+
+.btn-primary {
+    /* Optional: Change primary button background color to primary color */
+    background-color: var(--bs-primary);
+    /* Optional: Remove primary button outline */
+    border: none;
+}
+
+/* PAGE: Home */
+.hero.home {
+    /* Add a background image for the hero section */
+    background: url(../images/karimm@2x.jpg);
+
+    /* Adjust image size to cover the entire section */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Optional: Color text white */
+    color: var(--bs-white);
+
+    /* Optional: Add a full-height hero section */
+    height: 75vh;
+    /* Optional: Add necessary props to center the text in the middle of the hero */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-me {
+    /* Optional: Add a background image for the hero section */
+    background: url(../images/bg-1.png);
+
+    /* Optional: Make the image cover the entire section */
+    background-size: cover;
+
+    /* Optional: Color text white */
+    color: var(--bs-white);
+}
+
+#projects a {
+    /* Optional: Remove underline on project card links */
+    text-decoration: none;
+}
